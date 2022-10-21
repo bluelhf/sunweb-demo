@@ -9,3 +9,10 @@ By default, several endpoints are available:
 1. `/api/toggle` - Simple plaintext response.
 2. `/api/potato` - Mutable state handler, counts requests and returns the count with the prefix `potato `.
 3. `/` - If no other contexts are matched, this endpoint serves static files from `./app/content`.
+
+## Running
+
+To run the project, execute these commands in your terminal shell of choice:
+1. `git clone https://github.com/bluelhf/sunweb-demo`
+2. `cd sunweb-demo`
+3. `gradlew run`
