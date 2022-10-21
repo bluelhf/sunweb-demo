@@ -6,6 +6,6 @@ The main application, i.e. the server, is located in `app`. The main class is `b
 which contains the logic for creating the endpoints and registering their handlers.
 
 By default, several endpoints are available:
-1. `/api/toggle` - Simple plaintext echo response.
+1. `/api/toggle` - Simple plaintext response.
 2. `/api/potato` - Mutable state handler, counts requests and returns the count with the prefix `potato `.
 3. `/` - If no other contexts are matched, this endpoint serves static files from `./app/content`.
