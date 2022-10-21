@@ -12,7 +12,13 @@ By default, several endpoints are available:
 
 ## Running
 
-To run the project, execute these commands in your terminal shell of choice:
+To run the project, first ensure you have [Git](https://git-scm.com/) installed. Then, execute these commands in your terminal shell of choice:
 1. `git clone https://github.com/bluelhf/sunweb-demo`
 2. `cd sunweb-demo`
 3. `gradlew run`
+> **Note**  
+> Not sure what a shell is?
+> - On Windows, you should open the **Windows Terminal** program (on older versions, try Command Prompt)
+> - On macOS, you'll need the **Terminal** program.
+> 
+> You can run commands by typing them into the program window and pressing `Enter`.
